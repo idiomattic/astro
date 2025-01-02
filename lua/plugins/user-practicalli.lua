@@ -170,12 +170,8 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = function()
-      local snazzy = require("user.colors.snazzy").setup()
       return {
-        flavour = "mocha",
-        color_overrides = {
-          mocha = snazzy,
-        },
+        flavour = "frappe",
         integrations = {
           aerial = true,
           alpha = true,
